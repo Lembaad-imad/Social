@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background-color: hsl(303, 10%, 53%);
+}
+section{
+    width: 90%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 33px;
+    background-color: hsl(300, 24%, 96%);
+    /* background-image: url(images/bg-pattern-bottom-desktop.svg);
+    background-image: url(images/bg-pattern-top-desktop.svg); */
+    background-size: cover;
+    background-position-y: 10px;
+    padding: 50px;
+    display: grid;
+    gap: 40px;
+}
+
+section .topdiv{
+    display: flex;
+    /* justify-content: center; */
+    height: 35vh;
+    width: 85%;
+    margin: auto;
+}
+section .topdiv article:first-child{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+section .topdiv article:first-child p{
+    width: 70%;
+    text-align: justify;
+    line-height: 22px;
+}
+section .topdiv article:last-child{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 13px;
+}
+section .topdiv article:last-child div:nth-child(2){
+    align-self: center;
+}
+section .topdiv article:last-child div:nth-child(3){
+    align-self: flex-end;
+}
+section .topdiv article:last-child div{
+    display: flex;
+    gap: 7px;
+    background-color: hsl(333deg 80% 67% / 18%);
+    padding: 13px;
+    width: 80%;
+    border-radius: 7px;
+}
+
+section .topdiv article:last-child div p{
+    padding-left: 20px;
+    font-weight: 700;
+}
+section .topdiv article:first-child h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    width: 250px;
+    line-height: 40px;
+}
+
+
+section .box{
+    display: flex;
+    gap: 20px;
+    height: 37vh;
+    width: 85%;
+    margin: auto;
+}
+section .box .boxone:nth-child(2){
+    align-self: center;
+}
+section .box .boxone:nth-child(3){
+    align-self: flex-end;
+}
+section .box .boxone{
+    padding: 25px;
+    background-color: hsl(300, 43%, 22%);
+    height: 33vh;
+    width: 31%;
+    border-radius: 8px;
+    display: grid;
+    gap: 20px;
+}
+section .box .boxone div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+section .box .boxone div img{
+    border-radius: 50%;
+    width: 50px;
+}
+section .box .boxone div p{
+    font-weight: 600;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+section .box .boxone div p span{
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+}
+section .box .boxone article p{
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+}
